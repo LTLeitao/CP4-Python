@@ -1,7 +1,7 @@
 import sqlite3
 from fastapi import APIRouter, HTTPException, status, Response
-from schemas import UserCreate, UserUpdate
-import services
+from app.schemas import UserCreate, UserUpdate
+import app.services as services
 
 router = APIRouter(prefix="/users", tags=["Usuários"])
 

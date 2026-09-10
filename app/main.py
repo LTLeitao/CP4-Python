@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from controller import router
+from app.controller import router
 
 app = FastAPI(
     title="API da Academia",

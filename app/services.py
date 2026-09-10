@@ -1,4 +1,4 @@
-from database import get_connection
+from app.database import get_connection
 
 def list_plans():
     conn = get_connection()
