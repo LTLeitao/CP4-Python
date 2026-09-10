@@ -33,10 +33,10 @@ CP4-Python/
 ```
 
 ## 🚀 Como Executar o Projeto
-Pré-requisitos
+**Pré-requisitos**
 Python instalado (versão 3.10 ou superior).
 
-Passo a Passo
+**Passo a Passo**
 Clonar o repositório:
 
 Bash
@@ -52,19 +52,19 @@ Bash
 python -m uvicorn app.main:app --reload
 O banco de dados SQLite (database.db) e suas tabelas serão criados automaticamente na primeira inicialização.
 
-Acessar a Aplicação:
+**Acessar a Aplicação:**
 
 Frontend: Abra o arquivo static/index.html diretamente no seu navegador.
 
 Documentação da API (Swagger): Acesse http://127.0.0.1:8000/docs para testar os endpoints interativamente.
 
 ## 📌 Funcionalidades e Rotas
-GET /users - Lista todos os alunos (retornando o nome do plano via JOIN)
+**GET /users** - Lista todos os alunos (retornando o nome do plano via JOIN)
 
-POST /users - Cadastra um novo aluno
+**POST /users** - Cadastra um novo aluno
 
-PATCH /users/{user_id} - Atualiza dados de um aluno
+**PATCH /users/{user_id}** - Atualiza dados de um aluno
 
-DELETE /users/{user_id} - Remove um aluno
+**DELETE /users/{user_id}** - Remove um aluno
 
-GET /users/plans - Lista os planos disponíveis para seleção
+**GET /users/plans** - Lista os planos disponíveis para seleção
