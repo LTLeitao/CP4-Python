@@ -30,8 +30,9 @@ CP4-Python/
 ├── database.db         # Banco de dados SQLite (gerado automaticamente)
 ├── requirements.txt    # Dependências do projeto
 └── README.md           # Documentação do projeto
+```
 
-🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 Pré-requisitos
 Python instalado (versão 3.10 ou superior).
 
@@ -57,7 +58,7 @@ Frontend: Abra o arquivo static/index.html diretamente no seu navegador.
 
 Documentação da API (Swagger): Acesse http://127.0.0.1:8000/docs para testar os endpoints interativamente.
 
-📌 Funcionalidades e Rotas
+## 📌 Funcionalidades e Rotas
 GET /users - Lista todos os alunos (retornando o nome do plano via JOIN)
 
 POST /users - Cadastra um novo aluno
