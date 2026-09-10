@@ -22,7 +22,7 @@ async function carregarUsuarios() {
         <td>${user.address}</td>
         <td>${user.email}</td>
         <td>${user.cpf}</td>
-        <td>${user.plan_id}</td>
+        <td>${user.type || user.plan_type || user.plan_id}</td>
         <td>
           <button class="btn btn-edit" onclick="prepararEdicao(${user.id}, '${user.address}', '${user.email}', '${user.cpf}', ${user.plan_id})">Editar</button>
           <button class="btn btn-delete" onclick="deletarUsuario(${user.id})">Excluir</button>
